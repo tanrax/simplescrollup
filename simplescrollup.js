@@ -24,7 +24,7 @@ function scrollUp(duration, easing) {
         scroll();
     }
     // Variables
-    var buttonUp = document.querySelector('a[href="#up"');
+    var buttonUp = document.querySelector('a[href="#up"]');
     var easings = {
         linear(t) {
             return t;
