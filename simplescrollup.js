@@ -67,7 +67,7 @@ function scrollUp(duration, easing) {
         }
     };
     // Event
-    buttonUp.addEventListener('click', () => {
+    buttonUp.addEventListener('click', function() {
         // Get attributes
         var duration = parseInt(buttonUp.getAttribute('duration')) || 1000;
         var easing = buttonUp.getAttribute('easing') || 'easeInOutQuad';
