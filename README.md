@@ -1,5 +1,9 @@
 # Simple plugin in Javascript Vanilla to animate scrolling when you return to the top of the page
 
+## Demo
+
+[Project Site](http://simplescrollup.programadorwebvalencia.com/)
+
 ## Download
 
 ```bash
@@ -11,10 +15,6 @@ or
 ```bash
 yarn add simplescrollup
 ```
-
-## Demo
-
-[Project Site](http://simplescrollup.programadorwebvalencia.com/)
 
 ## Quick start
 
