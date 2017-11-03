@@ -1,12 +1,25 @@
 # Simple plugin in Javascript Vanilla to animate scrolling when you return to the top of the page
 
+## Download
+
+```bash
+npm install simplescrollup
+```
+
+or
+
+```bash
+yarn add simplescrollup
+```
+
 ## Demo
 
 [Project Site](http://simplescrollup.programadorwebvalencia.com/)
 
-## Install
+## Quick start
 
 1. Download **simplescrollup.js** .
+
 
 2. Link in your HTML **simplescrollup.js** .
 

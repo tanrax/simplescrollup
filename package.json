@@ -1,0 +1,24 @@
+{
+  "name": "simplescrollup",
+  "version": "1.0.0",
+  "description": "Simple plugin to animate scrolling when you return to the top of the page ",
+  "main": "simplescrollup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanrax/simplescrollup.git"
+  },
+  "keywords": [
+    "plugin",
+    "scroll",
+    "animated"
+  ],
+  "author": "Andros Fenollosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanrax/simplescrollup/issues"
+  },
+  "homepage": "https://github.com/tanrax/simplescrollup#readme"
+}
