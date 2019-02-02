@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>simple scroll up</title>
+    <description>Simple plugin in Javascript Vanilla to animate scrolling when you return to the top of the page</description>
+    <link>simplescrollup.programadorwebvalencia.com/</link>
+    <atom:link href="simplescrollup.programadorwebvalencia.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 05 Nov 2017 09:38:53 +0100</pubDate>
+    <lastBuildDate>Sun, 05 Nov 2017 09:38:53 +0100</lastBuildDate>
+    <generator>Jekyll v3.5.1</generator>
+    
+  </channel>
+</rss>

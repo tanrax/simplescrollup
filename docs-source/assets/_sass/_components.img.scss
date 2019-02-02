@@ -1,0 +1,131 @@
+/**
+ * Avatar
+ */
+
+@keyframes rotateAvatar{
+
+    100% {
+        transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+        background: url(../images/cartoon-avatar.jpg) center no-repeat;
+		background-size: 100% 100%;
+    }
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 95px;
+    border: 5px solid $light-blue;
+    background: url(../images/cartoon-avatar.jpg) center no-repeat;
+    background-size: 80% 80%;
+    &:hover {
+	animation: rotateAvatar 1s ease;
+	-webkit-animation: rotateAvatar 1s ease;	/* Safari and Chrome */
+	animation-fill-mode: forwards;
+	cursor: pointer;
+    }
+}
+
+/**
+ * Images in post
+ */
+ 
+.post-content img {
+	margin-left: -2em;
+	clear: both; 
+	display: block; 
+	margin: auto;
+    border: 0.2em solid $light-blue;
+    @include border-radius(0.5em);
+}
+
+/**
+ * Images in projects
+ */
+
+.vertical-timeline-block img {
+  max-width: 100%;
+  border: 0.2em solid $light-blue;
+  @include border-radius(0.5em);
+}
+ 
+/**
+ * Animations for SVG
+ */
+ /*
+@keyframes waveHand{
+
+	0% {
+        transform: rotate(-15deg);
+    }
+	50% {
+        transform: rotate(15deg);
+    }
+    100% {
+        transform: rotate(-15deg);
+    }
+}
+@-webkit-keyframes waveHand{
+
+	0% {
+		-webkit-transform: rotate(-15deg);
+    }
+	50% {
+		-webkit-transform: rotate(15deg);
+    }
+    100% {
+		-webkit-transform: rotate(-15deg);
+    }
+}
+#bear-paw {
+	animation-name: waveHand;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	-webkit-animation-name: waveHand;	
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite;
+	transform-origin: 340px 400px;
+	-webkit-transform-origin: 340px 400px;
+}
+@keyframes rotateSun{
+
+	0% {
+        transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+    }
+	
+    100% {
+        transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+    }
+}
+#sun {
+	animation: rotateSun 3s linear infinite;
+	-webkit-animation: rotateSun 3s linear infinite;	
+	transform-origin: 1400px 230px;
+	-webkit-transform-origin: 1400px 230px;
+}
+@keyframes moveCloud{
+
+	0% {
+        transform:  translate(0px,0px);
+		-webkit-transform: translate(0px,0px);
+    }
+	
+    50% {
+        transform:  translate(120px,0px);
+		-webkit-transform: translate(120px,0px);
+    }
+	100% {
+        transform:  translate(0px,0px);
+		-webkit-transform: translate(0px,0px);
+    }
+}
+#cloud {
+	animation: moveCloud 3s linear infinite;
+	-webkit-animation: moveCloud 3s linear infinite;	
+	transform-origin: 0px 0px;
+	-webkit-transform-origin: 0px 0px;
+}
+*/

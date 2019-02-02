@@ -1,0 +1,36 @@
+---
+layout: null
+title: 404
+permalink: /404.html
+---
+
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+	<link rel="stylesheet" href="{{ "{{ site.url }}/assets/css/main.css" | prepend: site.baseurl }}">
+</head>
+
+<body>
+	<div class="error-wrapper">
+		<div class="error-content text-center">
+			<h1 class="white-title">404</h1>
+			<div class="error-desc">Oops!!! The page was not found.</div>
+		</div>
+		<nav class="text-center">
+			<a href="/">Home</a>
+			<a href="/blog">Blog</a>
+		</nav>
+	</div>
+   
+
+</body>
+
+</html>

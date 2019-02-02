@@ -1,0 +1,26 @@
+#Site
+title: simple scroll up
+description: Simple plugin in Javascript Vanilla to animate scrolling when you return to the top of the page
+logo: favicon.png
+url: simplescrollup.programadorwebvalencia.com
+
+# Jekyll
+permalink:          /blog/:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+sass:
+  sass_dir:         assets/_sass
+  style:            compressed
+
+# Author information:
+author:
+  name: Andros Fenollosa     #the name of Blog section
+ 
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile,.sass-cache,.DS_Store,.idea]

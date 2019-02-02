@@ -1,0 +1,9 @@
+---
+layout: default
+nav: home
+comment: false
+---
+<section class="install">
+{% capture my_include %}{% include install.md %}{% endcapture %}
+{{ my_include | markdownify }}
+</section>

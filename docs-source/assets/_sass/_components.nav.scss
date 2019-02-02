@@ -1,0 +1,20 @@
+
+  nav {
+    float: right;
+    margin: 2em 0 0 0;
+    a {
+      color: $blue;
+      text-decoration: none;
+      text-shadow: 1px 1px $white, 2px 2px $darker-white;
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+  }
+
+.error-wrapper {
+  nav {
+    float: none;
+	font-size: $large-font-size;
+  }
+}
